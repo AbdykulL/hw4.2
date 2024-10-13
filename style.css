@@ -1,0 +1,74 @@
+body{
+    background-color: white;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+    display: flex;
+}
+.container{
+    display: flex;
+    text-align: center;
+    background-color: white;
+    justify-content: safe;
+    flex-direction: column;
+    min-height: 30vh;
+    align-items: center;
+    width: 700px;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) ;
+    margin-top: 200px;
+    margin-left: 400px;
+    box-shadow: black;
+    
+    
+}
+ button {
+    border-radius: 5px ;
+    width: 140x;
+    height:50px;
+    background-color: rgb(96, 155, 228);
+    color: aliceblue;
+    
+}
+
+.checkbox-container {
+    display:flex;
+    align-items: center;
+    margin-top:10px ; 
+}
+
+h1{
+    font-size: large;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.email input{
+    display: flex;
+    height: 45px;
+    width: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #3d9fff;
+    border-radius: 5px;
+    display: inline;
+}
+.ch.bx{
+    display: flex;
+    margin-right: 29px;
+    display: flex;
+}
+.ch.bx label{
+    font-size: smaller;
+    color:black;
+    padding-left: 5px;
+    margin-right: 60px;
+}
+.ch.bx input[type="checkbox"] {
+   margin-bottom: 10px;
+   margin-right: auto;
+}
